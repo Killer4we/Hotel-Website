@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color: #333;
+    height: 60px;
+    position: relative;
+    /* height: 100%; */
+}
+.navlinks li{
+    list-style: none;
+}
+.buttons{
+    float: left;
+    border: 0px;
+    color: black;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+
+}
+#first-button{
+    margin-right: 900px;
+
+}
+#first-button:hover{
+    cursor: pointer;
+}
+#rest-buttons{
+    margin-left: 20px;
+}
+#rest-buttons:hover{
+    cursor: pointer;
+    color: coral;
+    background-color: #444;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+#footer p{
+    padding-top: 35px;
+}

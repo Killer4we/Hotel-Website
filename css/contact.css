@@ -1,0 +1,123 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    /* line-height: 1.7em; */
+    color: #ffffff;
+    margin: 0px;
+}
+.fa-hotel{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #333;
+    height: 60px;
+    position: relative;
+}
+.navlinks li{
+    list-style: none;
+}
+.buttons{
+    float: left;
+    border: 0px;
+    color: black;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+
+}
+#first-button{
+    margin-right: 900px;
+
+}
+#first-button:hover{
+    cursor: pointer;
+}
+#rest-buttons{
+    margin-left: 20px;
+}
+#rest-buttons:hover{
+    cursor: pointer;
+    color: coral;
+    background-color: #444;
+}
+#main h1{
+    color: black;
+    padding:30px;
+    margin-left: 30px;
+}
+#main p{
+    /* padding-top: 10px; */
+    color: black;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+span{
+    color: coral;
+}
+.inps{
+    margin-top: 10px;
+}
+.inputs{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 500px;
+    padding-left: 10px;
+    height: 30px;
+}
+.submitbutton{
+    color: white;
+    background-color: #333;
+    border: 0px;
+    height: 50px;
+    width: 80px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submitbutton:hover{
+    cursor: pointer;
+    color: black;
+    background-color: coral;
+}
+#beforefooter{
+    background-color: black;
+    height: 200px;
+}
+.fa-hotel{
+    color: white;
+}
+#card1,#card2,#card3{
+    padding-top: 20px;
+}
+.cards{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.cards h3{
+    text-align: center;
+    padding-top: 10px;
+}
+.cards p{
+    text-align: center;
+    margin-top: 50px;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+#footer p{
+    padding-top: 35px;
+    color: white;
+}

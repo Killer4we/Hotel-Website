@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    /* line-height: 1.7em; */
+    color: white;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#main{
+    float: left;
+    width: 50%;
+    margin-left: 40px;
+}
+#main h1{
+    color: black;
+    opacity: 0.8;
+}
+#main p{
+    margin-top: 10px;
+    color: black;
+}
+#main-img img{
+    margin-left: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+span{
+    color: coral;
+}
+#container{
+    margin-top: 30px;
+}
+#second-container{
+    background-image: url(/images/test-bg.jpg);
+    height: 500px;
+    margin-top: 20px;
+}
+#second-container h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.cards{
+    background-color: #f7c08a;
+    opacity: 0.8;
+    border-radius: 1%;
+    margin-left: 30px;
+    width: 95%;
+    float: left;
+}
+.cards img{
+    border-radius: 50%;
+    height: 100px;
+    width: 10%;
+}
+.cards p{
+    float: right;
+    font-size: 16px;
+}
+#card1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#card1 p{
+    font-size: 15px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+#card2 p{
+    padding-top: 35px;
+}
